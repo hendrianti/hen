@@ -1,0 +1,6 @@
+<p class='poop' data-modal='one'>Click Me</a>
+<div class='modal one' data-header="Simple Modal Demo">
+<p>I used a bit of jQuery to keep the mark-up simple. The height of this area is fixed with an overflow property to incorporate a scrollbar once that height has been surpassed.</p>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+</div>

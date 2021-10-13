@@ -1,0 +1,79 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Pompiere);
+
+.wrapper {
+  background: black url(https://subtlepatterns.com/patterns/black_lozenge.png) repeat;
+  width: 100%;
+  height: 1080px; /* Didn't do 100% because of height of rendering area */
+  position:absolute;
+  left: 0;
+  top: 0;
+  z-index: 666;
+  font-family: "Helvetica";
+  display:none;
+}
+
+.modal {
+  min-width: 500px;
+  max-width: 500px;
+  width: 500px;
+  min-height: 350px;
+  max-height: 350px;
+  height: 350px;
+  border: 10px solid black;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 667;
+  background: white;
+  left: 37.5%;
+  top: 100px;
+}
+
+.modal h1 {
+   font-family: "Pompiere", cursive;
+   font-weight: 900;
+   text-transform: uppercase;
+   padding: 10px;
+   font-size: 1.5em;
+   border-bottom: 1px solid #ccc;
+   color: #424242;
+   position: relative;
+}
+.modal-body {
+   overflow-y:auto;
+   height: 250px;
+   border-bottom: 1px solid #ccc;
+   position:relative;
+}
+.modal-body p {
+   padding: 10px; 
+}
+.modal-button a {
+   text-decoration: none;
+   background: #424242;
+   padding: 5px 10px;
+   color: white;
+   border-radius: 5px;
+  
+}
+.modal-button a:hover {
+   background: #aaa; 
+}
+.modal-button {
+   position:relative; 
+   top: 20px;
+   left: 400px;
+}
+p.poop {
+ margin: 100px auto 0 auto;
+ font-size: 40px;
+ font-family: "Arial";
+ width: 300px;
+ text-align:center;
+ background: #3299bb;
+ padding: 10px 0;
+ border-radius: 5px;
+ border: 8px solid #31aaff;
+ cursor:pointer;
+}
